@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8036271C29A9642200E4409A /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036271B29A9642200E4409A /* Track.swift */; };
+		8036271E29A96F5000E4409A /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036271D29A96F5000E4409A /* TrackCell.swift */; };
 		80371A5E29A70DF000336FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A5D29A70DF000336FCA /* AppDelegate.swift */; };
 		80371A6029A70DF000336FCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A5F29A70DF000336FCA /* SceneDelegate.swift */; };
-		80371A6229A70DF000336FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A6129A70DF000336FCA /* ViewController.swift */; };
+		80371A6229A70DF000336FCA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A6129A70DF000336FCA /* RootViewController.swift */; };
 		80371A6529A70DF000336FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80371A6329A70DF000336FCA /* Main.storyboard */; };
 		80371A6729A70DF000336FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80371A6629A70DF000336FCA /* Assets.xcassets */; };
 		80371A6A29A70DF000336FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80371A6829A70DF000336FCA /* LaunchScreen.storyboard */; };
 		80371A7529A70DF100336FCA /* mvelazquez_hw8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A7429A70DF100336FCA /* mvelazquez_hw8Tests.swift */; };
 		80371A7F29A70DF100336FCA /* mvelazquez_hw8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A7E29A70DF100336FCA /* mvelazquez_hw8UITests.swift */; };
 		80371A8129A70DF100336FCA /* mvelazquez_hw8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A8029A70DF100336FCA /* mvelazquez_hw8UITestsLaunchTests.swift */; };
+		80371A8E29A70FEF00336FCA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80371A8D29A70FEF00336FCA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8036271B29A9642200E4409A /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		8036271D29A96F5000E4409A /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		80371A5A29A70DF000336FCA /* mvelazquez-hw8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvelazquez-hw8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80371A5D29A70DF000336FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80371A5F29A70DF000336FCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80371A6129A70DF000336FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80371A6129A70DF000336FCA /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		80371A6429A70DF000336FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80371A6629A70DF000336FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80371A6929A70DF000336FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		80371A7A29A70DF100336FCA /* mvelazquez-hw8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvelazquez-hw8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80371A7E29A70DF100336FCA /* mvelazquez_hw8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvelazquez_hw8UITests.swift; sourceTree = "<group>"; };
 		80371A8029A70DF100336FCA /* mvelazquez_hw8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvelazquez_hw8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80371A8D29A70FEF00336FCA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				80371A5D29A70DF000336FCA /* AppDelegate.swift */,
 				80371A5F29A70DF000336FCA /* SceneDelegate.swift */,
-				80371A6129A70DF000336FCA /* ViewController.swift */,
+				80371A6129A70DF000336FCA /* RootViewController.swift */,
+				80371A8D29A70FEF00336FCA /* DetailViewController.swift */,
+				8036271D29A96F5000E4409A /* TrackCell.swift */,
+				8036271B29A9642200E4409A /* Track.swift */,
 				80371A6329A70DF000336FCA /* Main.storyboard */,
 				80371A6629A70DF000336FCA /* Assets.xcassets */,
 				80371A6829A70DF000336FCA /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80371A6229A70DF000336FCA /* ViewController.swift in Sources */,
+				80371A6229A70DF000336FCA /* RootViewController.swift in Sources */,
+				8036271E29A96F5000E4409A /* TrackCell.swift in Sources */,
+				8036271C29A9642200E4409A /* Track.swift in Sources */,
 				80371A5E29A70DF000336FCA /* AppDelegate.swift in Sources */,
 				80371A6029A70DF000336FCA /* SceneDelegate.swift in Sources */,
+				80371A8E29A70FEF00336FCA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
